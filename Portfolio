@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Tarun</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Greetings! I'm Tarun, a passionate web developer with a flair for crafting seamless digital experiences. With a solid foundation in front-end and back-end technologies, I specialize in bringing creative ideas to life in the digital realm.</p>
+        <p>I'm excited to connect with fellow enthusiasts, businesses, and creators who share a passion for innovation and meaningful design. Let's collaborate to turn your vision into a compelling online presence!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- List your projects here with details -->
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>project on portfolio</p>
+            <p><b>Description of the project.</b></p>
+            this is all about portfolio website
+        </div>
+        <!-- Add more project entries as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <P>M.no : 94xxxxxxxx</P>
+        <p>Email : tarunadla99@gmail.com</p>
+        <p>Provide your contact information or a contact form here.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tarun</p>
+    </footer>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
